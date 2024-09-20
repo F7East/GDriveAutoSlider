@@ -10,7 +10,7 @@ while true; do
     # --slideshow-delay 4: Sets the time each image is displayed to 4 seconds.
     # --auto-zoom: Zooms images to fit the screen without changing aspect ratio.
     # --fullscreen: Displays images in fullscreen mode.
-    feh -Yq --randomize --recursive --slideshow-delay 4 --auto-zoom --fullscreen --no-rotate ~/Desktop/Pictures
+    feh -Yq --randomize --recursive --slideshow-delay 4 --auto-zoom --fullscreen --auto-rotate ~/Desktop/Pictures
     
     # Pauses the script for 3600 seconds (1 hour) after the slideshow starts.
     sleep 3600
